@@ -34,7 +34,9 @@ export function CountUp({value,prefix=''}:{value:number;prefix?:string}){
   let raf=0;const t0=performance.now(),dur=520;
   const tick=(t:number)=>{const p=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-p,4);const v=start+(end-start)*e;from.current=v;setShown(v);if(p<1)raf=requestAnimationFrame(tick);else{from.current=end;setShown(end)}};
   raf=requestAnimationFrame(tick);
-  return ()=>cancelAnimationFrame(raf);
+  // Si el navegador no dibuja (pestaña en segundo plano), el número final se pone de todos modos.
+  const safety=setTimeout(()=>{cancelAnimationFrame(raf);from.current=end;setShown(end)},dur+250);
+  return ()=>{cancelAnimationFrame(raf);clearTimeout(safety)};
  },[value]);
  return <span className="countUp">{prefix}{fmt(shown)}</span>;
 }

@@ -77,7 +77,7 @@ h1{font-size:26px;font-weight:720;font-stretch:108%;letter-spacing:-.015em;line-
 .periodState.closed{background:var(--cordoba-soft);color:var(--cordoba)}
 .rateChip{font-family:var(--mono);font-size:12px;color:var(--ink-2)}
 .tabBody{animation:rise .22s var(--ease)}
-@keyframes rise{from{opacity:.35;transform:translateY(5px)}to{opacity:1;transform:none}}
+@keyframes rise{from{transform:translateY(5px)}to{transform:none}}
 
 /* ---------- Controles ---------- */
 .actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
@@ -230,7 +230,7 @@ section.note.tone-gasto{--tone:var(--out)}
 .noteBack{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;font-size:18px;font-weight:620}
 .noteBack>span:last-child{font-size:12.5px;font-weight:500;color:var(--ink-3);font-family:var(--mono)}
 .countUp{display:inline-block;animation:flipIn .32s var(--ease)}
-@keyframes flipIn{from{opacity:.2;transform:translateY(.28em)}}
+@keyframes flipIn{from{transform:translateY(.28em)}}
 .noteCaption{margin-top:12px;font-size:13.5px;color:var(--ink-2);max-width:62ch}
 .noteCaption .up{color:var(--in)}
 .noteCaption .down{color:var(--out)}
@@ -258,7 +258,7 @@ section.note.drenched .curFlip button{color:#e4eef3}
 section.note.drenched .curFlip button.on{background:#fff;color:var(--cordoba)}
 section.note.drenched.lead-u .curFlip button.on{color:var(--dolar)}
 .compBar{display:flex;gap:2px;height:14px;border-radius:4px;overflow:hidden;background:rgba(255,255,255,.16)}
-.compBar .seg{display:block;height:100%;transform-origin:left;animation:grow .8s var(--ease)}
+.compBar .seg{display:block;height:100%;transition:background .2s}
 .seg.s-c,.dot.s-c{background:#a9cde0}.seg.s-u,.dot.s-u{background:#8fd4ad}.seg.s-inv,.dot.s-inv{background:#f1f3ee}
 .compZero{margin-top:10px;font-size:12.5px;color:#d5e6ef}
 .compLegend{list-style:none;margin:14px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 22px}
@@ -280,7 +280,7 @@ section.note.drenched.lead-u .curFlip button.on{color:var(--dolar)}
 .acctBar{height:6px;border-radius:3px;background:var(--sheet-2);overflow:hidden;margin-top:7px}
 .cur-c strong,.card.account.cur-c>strong{color:var(--cordoba)}
 .cur-u strong,.card.account.cur-u>strong{color:var(--dolar)}
-.acctBar i{display:block;height:100%;border-radius:4px;transform-origin:left;animation:grow .8s var(--ease)}
+.acctBar i{display:block;height:100%;border-radius:4px;transition:background .2s}
 .acctBar i.c{background:var(--cordoba)}.acctBar i.u{background:var(--dolar)}
 .acctAmt{text-align:right}
 .acctAmt strong{font-size:16px;font-weight:680}
@@ -296,7 +296,7 @@ section.note.drenched.lead-u .curFlip button.on{color:var(--dolar)}
 .figures strong.warn{color:var(--foil-text)}
 .figures small{font-size:12px;color:var(--ink-3)}
 .collectBar{height:8px;border-radius:4px;background:var(--sheet-2);overflow:hidden}
-.collectBar i{display:block;height:100%;background:var(--in);border-radius:4px;transform-origin:left;animation:grow .8s var(--ease)}
+.collectBar i{display:block;height:100%;background:var(--in);border-radius:4px;transition:background .2s}
 .collectText{font-size:12.5px;color:var(--ink-2);margin:6px 0 12px}
 .oweList li{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:9px 0;border-top:1px solid var(--line-soft)}
 .oweList li>div{min-width:0}
@@ -309,16 +309,14 @@ section.note.drenched.lead-u .curFlip button.on{color:var(--dolar)}
 .bars div{grid-column:1 / -1;grid-row:2}
 .bars span{font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .bars div{height:8px;border-radius:4px;background:var(--sheet-2);overflow:hidden}
-.bars i{display:block;height:100%;border-radius:4px;background:var(--out);transform-origin:left;animation:grow .8s var(--ease)}
+.bars i{display:block;height:100%;border-radius:4px;background:var(--out);transition:background .2s}
 .bars b{font-size:13.5px;text-align:right}
 .bars small{grid-column:1 / -1;justify-self:end;font-size:11.5px;color:var(--ink-3);font-family:var(--mono);margin-top:-3px}
 .trend{margin:0}
 .trend svg{display:block;width:100%;height:auto}
 .trendGrid{stroke:var(--line-soft);stroke-width:1}
 .trendArea{fill:var(--cordoba);opacity:.07}
-.trendPath{fill:none;stroke:var(--cordoba);stroke-width:2.2;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1s var(--ease) forwards}
-@keyframes grow{from{transform:scaleX(0)}}
-@keyframes draw{to{stroke-dashoffset:0}}
+.trendPath{fill:none;stroke:var(--cordoba);stroke-width:2.2;stroke-linejoin:round;}
 .trendDot{fill:var(--sheet);stroke:var(--cordoba);stroke-width:2;transition:r .15s}
 .trendDot.on{fill:var(--cordoba);stroke:var(--cordoba)}
 .trendHit{fill:transparent}
@@ -392,7 +390,7 @@ section.note.drenched.lead-u .curFlip button.on{color:var(--dolar)}
 .generalCurrencySummary span{display:block;font-size:12.5px;font-weight:620;color:var(--ink-2)}
 .generalCurrencySummary strong{font-size:17px}
 .accountModalBackdrop{position:fixed;inset:0;z-index:80;display:grid;place-items:center;padding:20px;background:rgba(22,32,42,.42);animation:fade .18s ease-out}
-@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes fade{from{opacity:.6}to{opacity:1}}
 .accountModal{width:min(520px,100%);background:var(--sheet);border-radius:14px;padding:22px;box-shadow:0 24px 60px -12px rgba(22,32,42,.4);animation:rise .22s var(--ease)}
 .accountModalHead{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
 .accountModalHead h3{font-size:18px;font-weight:700}
@@ -440,14 +438,14 @@ section.note.drenched.lead-u .curFlip button.on{color:var(--dolar)}
 .gaugeHead strong{font-size:20px;font-weight:680}
 .positive{color:var(--in)}.negative{color:var(--out)}
 .gaugeTrack{position:relative;height:12px;border-radius:6px;background:var(--sheet-2);margin-top:22px}
-.gaugeTrack i{display:block;height:100%;border-radius:6px;background:var(--dolar);transform-origin:left;animation:grow .8s var(--ease)}
+.gaugeTrack i{display:block;height:100%;border-radius:6px;background:var(--dolar);transition:background .2s}
 .gaugeTrack b{position:absolute;top:-6px;bottom:-6px;width:2px;background:var(--ink)}
 .gaugeTrack b span{position:absolute;bottom:calc(100% + 3px);left:50%;transform:translateX(-50%);white-space:nowrap;font-size:11.5px;font-weight:650;color:var(--ink)}
 .gaugeScale{display:flex;justify-content:space-between;font-family:var(--mono);font-size:11.5px;color:var(--ink-3)}
 .progressExceeded{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--in);font-weight:620}
 .debtBarWrap{display:flex;align-items:center;gap:9px;min-width:150px}
 .debtBar{flex:1;height:8px;border-radius:4px;background:var(--sheet-2);overflow:hidden}
-.debtBarFill{display:block;height:100%;background:var(--dolar);border-radius:4px;transform-origin:left;animation:grow .8s var(--ease)}
+.debtBarFill{display:block;height:100%;background:var(--dolar);border-radius:4px;transition:background .2s}
 .debtBarWrap>span{font-family:var(--mono);font-size:12px;color:var(--ink-2)}
 .dangerResetPanel{display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap;margin-top:40px;padding:20px 22px;border-radius:12px;border:1px solid var(--danger-line);background:var(--sheet)}
 .dangerResetPanel h2{font-size:16px;font-weight:680;color:#7f251d}
@@ -457,8 +455,7 @@ section.note.drenched.lead-u .curFlip button.on{color:var(--dolar)}
 
 /* ---------- Entrada y carga ---------- */
 .authWrap,.loadingScreen{min-height:100vh;display:grid;place-items:center;padding:24px;background:var(--paper)}
-.loadingScreen{color:var(--ink-2);font-weight:600;animation:breathe 1.6s ease-in-out infinite}
-@keyframes breathe{50%{opacity:.55}}
+.loadingScreen{color:var(--ink-2);font-weight:600}
 .authCard{position:relative;overflow:hidden;width:min(420px,100%);background:var(--sheet);border:1px solid var(--line);border-radius:14px;padding:44px 28px 28px;box-shadow:var(--shadow-2)}
 .authCard .authBand{position:absolute;left:0;right:0;top:-8px;width:100%;height:44px;color:var(--cordoba);opacity:.22}
 .authCard .brandWrap{padding:0}
@@ -500,5 +497,4 @@ section.note.drenched.lead-u .curFlip button.on{color:var(--dolar)}
 }
 @media(prefers-reduced-motion:reduce){
  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
- .trendPath{stroke-dashoffset:0}
 }
