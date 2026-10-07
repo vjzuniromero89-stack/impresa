@@ -1,5 +1,6 @@
 'use client';
 import {useEffect,useRef,useState} from 'react';
+import {Icon} from './ui';
 
 // Selector tipo "select" pero con lista propia: al abrir la flechita, cada
 // opción de la lista trae su propia "×" roja para borrarla ahí mismo (con
@@ -35,12 +36,12 @@ export default function ManagedSelect({value,onChange,options,onRemove,emptyLabe
  return <div className="managedSelect" ref={ref}>
   <button type="button" className="managedSelectButton" onClick={()=>setOpen(o=>!o)} aria-haspopup="listbox" aria-expanded={open}>
    <span className={value?'':'managedSelectPlaceholder'}>{displayText}</span>
-   <span className="managedSelectArrow" aria-hidden="true">▾</span>
+   <span className="managedSelectArrow" aria-hidden="true"><Icon name="down" size={14}/></span>
   </button>
   {open&&<ul className="managedSelectList" role="listbox">
    {list.map(opt=><li key={opt||'—'} role="option" aria-selected={opt===value} className={'managedSelectRow'+(opt===value?' active':'')}>
     <button type="button" className="managedSelectOption" onClick={()=>{onChange(opt);setOpen(false)}}>{opt||emptyLabel}</button>
-    {onRemove&&opt&&<button type="button" className="removeChip" title={`Borrar "${opt}" de la lista`} onClick={e=>handleRemove(opt,e)}>×</button>}
+    {onRemove&&opt&&<button type="button" className="removeChip" title={`Borrar "${opt}" de la lista`} aria-label={`Borrar ${opt} de la lista`} onClick={e=>handleRemove(opt,e)}><Icon name="close" size={13}/></button>}
    </li>)}
    {!list.length&&<li className="managedSelectEmpty">Sin opciones guardadas todavía.</li>}
   </ul>}

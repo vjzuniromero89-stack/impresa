@@ -1,0 +1,704 @@
+{
+ "schemaVersion": 2,
+ "generatedAt": "2026-10-07T22:30:20.835Z",
+ "title": "Design System: IMPRESA",
+ "extensions": {
+  "colorMeta": {
+   "paper": {
+    "role": "neutral",
+    "displayName": "Banknote Paper",
+    "canonical": "#eef1ec",
+    "oklch": "oklch(95.4% 0.007 132)",
+    "tonalRamp": [
+     "#0a0c09",
+     "#252724",
+     "#41433f",
+     "#626460",
+     "#848783",
+     "#a9aca7",
+     "#cdcecc",
+     "#edefec"
+    ]
+   },
+   "rail": {
+    "role": "neutral",
+    "displayName": "Rail Paper",
+    "canonical": "#e3e8e0",
+    "oklch": "oklch(92.5% 0.012 133)",
+    "tonalRamp": [
+     "#090c07",
+     "#242822",
+     "#40443d",
+     "#61655e",
+     "#838881",
+     "#a8ada5",
+     "#cccfcb",
+     "#edefeb"
+    ]
+   },
+   "sheet": {
+    "role": "neutral",
+    "displayName": "Sheet",
+    "canonical": "#fbfcf9",
+    "oklch": "oklch(98.9% 0.004 122)",
+    "tonalRamp": [
+     "#0b0b0a",
+     "#262725",
+     "#424340",
+     "#636461",
+     "#868684",
+     "#aaaba8",
+     "#cdcecc",
+     "#eeefed"
+    ]
+   },
+   "sheet-2": {
+    "role": "neutral",
+    "displayName": "Sheet Shade",
+    "canonical": "#f3f6f0",
+    "oklch": "oklch(96.9% 0.009 129)",
+    "tonalRamp": [
+     "#0a0c08",
+     "#252723",
+     "#41433f",
+     "#62645f",
+     "#848782",
+     "#a9aca6",
+     "#cdcecb",
+     "#edefec"
+    ]
+   },
+   "white": {
+    "role": "neutral",
+    "displayName": "White",
+    "canonical": "#ffffff",
+    "oklch": "oklch(100.0% 0.000 0)",
+    "tonalRamp": [
+     "#0b0b0b",
+     "#262626",
+     "#424242",
+     "#636363",
+     "#868686",
+     "#ababab",
+     "#cecece",
+     "#eeeeee"
+    ]
+   },
+   "line": {
+    "role": "neutral",
+    "displayName": "Hairline",
+    "canonical": "#cfd6cc",
+    "oklch": "oklch(86.8% 0.016 136)",
+    "tonalRamp": [
+     "#080d07",
+     "#232821",
+     "#3f443c",
+     "#5f655d",
+     "#82887f",
+     "#a6ada4",
+     "#cbcfca",
+     "#ecf0eb"
+    ]
+   },
+   "line-soft": {
+    "role": "neutral",
+    "displayName": "Soft Hairline",
+    "canonical": "#e0e6dd",
+    "oklch": "oklch(91.8% 0.014 135)",
+    "tonalRamp": [
+     "#090c07",
+     "#242821",
+     "#3f443d",
+     "#60655d",
+     "#838880",
+     "#a7ada4",
+     "#cccfca",
+     "#ecefeb"
+    ]
+   },
+   "ink": {
+    "role": "neutral",
+    "displayName": "Ink",
+    "canonical": "#16202a",
+    "oklch": "oklch(23.9% 0.024 249)",
+    "tonalRamp": [
+     "#040c15",
+     "#1d2832",
+     "#39444f",
+     "#596571",
+     "#7b8894",
+     "#a0acba",
+     "#c8cfd5",
+     "#e8eff6"
+    ]
+   },
+   "ink-2": {
+    "role": "neutral",
+    "displayName": "Ink Secondary",
+    "canonical": "#44525e",
+    "oklch": "oklch(43.1% 0.027 244)",
+    "tonalRamp": [
+     "#030c16",
+     "#1b2833",
+     "#374450",
+     "#576572",
+     "#798895",
+     "#9dadbb",
+     "#c7cfd6",
+     "#e7f0f7"
+    ]
+   },
+   "ink-3": {
+    "role": "neutral",
+    "displayName": "Ink Tertiary",
+    "canonical": "#5b6873",
+    "oklch": "oklch(51.0% 0.024 244)",
+    "tonalRamp": [
+     "#040c14",
+     "#1d2831",
+     "#38444e",
+     "#586570",
+     "#7b8894",
+     "#9fadb9",
+     "#c7cfd5",
+     "#e8f0f6"
+    ]
+   },
+   "cordoba": {
+    "role": "primary",
+    "displayName": "Córdoba Ink",
+    "canonical": "#0f3d5c",
+    "oklch": "oklch(34.6% 0.073 243)",
+    "tonalRamp": [
+     "#000b26",
+     "#002947",
+     "#1a4666",
+     "#3c6889",
+     "#5f8caf",
+     "#83b1d5",
+     "#bad1e4",
+     "#daf2ff"
+    ]
+   },
+   "cordoba-2": {
+    "role": "primary",
+    "displayName": "Córdoba Ink Lifted",
+    "canonical": "#14507a",
+    "oklch": "oklch(41.6% 0.092 244)",
+    "tonalRamp": [
+     "#00082e",
+     "#00284f",
+     "#05466f",
+     "#2f6894",
+     "#538cba",
+     "#78b1e1",
+     "#b5d2ea",
+     "#d6f3ff"
+    ]
+   },
+   "cordoba-soft": {
+    "role": "primary",
+    "displayName": "Córdoba Wash",
+    "canonical": "#dfeaf1",
+    "oklch": "oklch(93.1% 0.015 235)",
+    "tonalRamp": [
+     "#060c11",
+     "#1f282d",
+     "#3b4449",
+     "#5b656b",
+     "#7e888e",
+     "#a2adb3",
+     "#c9cfd2",
+     "#eaeff3"
+    ]
+   },
+   "dolar": {
+    "role": "secondary",
+    "displayName": "Dollar Ink",
+    "canonical": "#1d6b4f",
+    "oklch": "oklch(47.3% 0.088 165)",
+    "tonalRamp": [
+     "#001403",
+     "#00331b",
+     "#005036",
+     "#277356",
+     "#4e9779",
+     "#73bd9d",
+     "#b4d7c7",
+     "#d4f8e7"
+    ]
+   },
+   "dolar-soft": {
+    "role": "secondary",
+    "displayName": "Dollar Wash",
+    "canonical": "#deeee6",
+    "oklch": "oklch(93.5% 0.020 165)",
+    "tonalRamp": [
+     "#040e09",
+     "#1d2a24",
+     "#394640",
+     "#596760",
+     "#7c8a83",
+     "#a0afa7",
+     "#c8d0cc",
+     "#e9f1ed"
+    ]
+   },
+   "dolar-deep": {
+    "role": "secondary",
+    "displayName": "Dollar Deep",
+    "canonical": "#124a35",
+    "oklch": "oklch(36.7% 0.068 164)",
+    "tonalRamp": [
+     "#001304",
+     "#00301d",
+     "#174e38",
+     "#3b7059",
+     "#5e937b",
+     "#82b99f",
+     "#bad5c8",
+     "#dbf6e8"
+    ]
+   },
+   "foil": {
+    "role": "tertiary",
+    "displayName": "Foil Gold",
+    "canonical": "#b0700f",
+    "oklch": "oklch(60.0% 0.127 69)",
+    "tonalRamp": [
+     "#280000",
+     "#4a1000",
+     "#6b3000",
+     "#905200",
+     "#b7761b",
+     "#de9b49",
+     "#e9c7a2",
+     "#ffe8c1"
+    ]
+   },
+   "foil-text": {
+    "role": "tertiary",
+    "displayName": "Foil Text",
+    "canonical": "#7c4e06",
+    "oklch": "oklch(46.5% 0.098 70)",
+    "tonalRamp": [
+     "#220000",
+     "#431900",
+     "#633600",
+     "#875817",
+     "#ac7b3f",
+     "#d3a064",
+     "#e3c9ac",
+     "#ffe9cc"
+    ]
+   },
+   "foil-soft": {
+    "role": "tertiary",
+    "displayName": "Foil Wash",
+    "canonical": "#f6e9cf",
+    "oklch": "oklch(93.8% 0.037 85)",
+    "tonalRamp": [
+     "#120900",
+     "#2f2510",
+     "#4c412b",
+     "#6d624b",
+     "#91856d",
+     "#b6a991",
+     "#d3cdc0",
+     "#f4eee1"
+    ]
+   },
+   "foil-line": {
+    "role": "tertiary",
+    "displayName": "Foil Line",
+    "canonical": "#dcc089",
+    "oklch": "oklch(81.9% 0.078 84)",
+    "tonalRamp": [
+     "#1a0500",
+     "#382100",
+     "#563e00",
+     "#785f2a",
+     "#9d824d",
+     "#c2a771",
+     "#daccb1",
+     "#fbedd1"
+    ]
+   },
+   "in": {
+    "role": "neutral",
+    "displayName": "In",
+    "canonical": "#16733f",
+    "oklch": "oklch(49.1% 0.117 153)",
+    "tonalRamp": [
+     "#001600",
+     "#003503",
+     "#005321",
+     "#1a7642",
+     "#469a64",
+     "#6cc087",
+     "#b1d9bc",
+     "#d2fbdc"
+    ]
+   },
+   "out": {
+    "role": "neutral",
+    "displayName": "Out",
+    "canonical": "#a8352b",
+    "oklch": "oklch(49.8% 0.152 29)",
+    "tonalRamp": [
+     "#350000",
+     "#5c0000",
+     "#800405",
+     "#a9362c",
+     "#d25c4e",
+     "#fc8172",
+     "#fcbcb2",
+     "#ffdcd2"
+    ]
+   },
+   "danger-line": {
+    "role": "neutral",
+    "displayName": "Danger Line",
+    "canonical": "#e2bfba",
+    "oklch": "oklch(83.3% 0.041 28)",
+    "tonalRamp": [
+     "#190403",
+     "#381e1b",
+     "#563a36",
+     "#795b56",
+     "#9d7d79",
+     "#c3a29d",
+     "#dbc9c6",
+     "#fceae7"
+    ]
+   },
+   "danger-soft": {
+    "role": "neutral",
+    "displayName": "Danger Soft",
+    "canonical": "#f7e6e3",
+    "oklch": "oklch(93.8% 0.019 30)",
+    "tonalRamp": [
+     "#120807",
+     "#2f2321",
+     "#4c3f3c",
+     "#6e5f5d",
+     "#91827f",
+     "#b7a7a4",
+     "#d4ccca",
+     "#f5eceb"
+    ]
+   },
+   "danger-deep": {
+    "role": "neutral",
+    "displayName": "Danger Deep",
+    "canonical": "#7f251d",
+    "oklch": "oklch(40.5% 0.125 29)",
+    "tonalRamp": [
+     "#2f0000",
+     "#540000",
+     "#771d16",
+     "#9e4237",
+     "#c66659",
+     "#ef8b7d",
+     "#f4bfb7",
+     "#ffe0d7"
+    ]
+   },
+   "note-mist": {
+    "role": "neutral",
+    "displayName": "Note Mist",
+    "canonical": "#d5e6ef",
+    "oklch": "oklch(91.5% 0.022 231)",
+    "tonalRamp": [
+     "#030d13",
+     "#1b292f",
+     "#37454c",
+     "#57666e",
+     "#798991",
+     "#9eaeb6",
+     "#c7cfd4",
+     "#e7f0f5"
+    ]
+   }
+  },
+  "typographyMeta": {
+   "display": {
+    "displayName": "Display",
+    "purpose": "The value on a note. 48px on the drenched note, 32px below 560px."
+   },
+   "headline": {
+    "displayName": "Headline",
+    "purpose": "The module name in the page header."
+   },
+   "title": {
+    "displayName": "Title",
+    "purpose": "Panel headings; 14px inside a panel or note, 20px for statement heads."
+   },
+   "figure": {
+    "displayName": "Figure",
+    "purpose": "Secondary totals inside panels and statement balances, 17 to 24px."
+   },
+   "body": {
+    "displayName": "Body",
+    "purpose": "Default text; tables at 13.5px."
+   },
+   "label": {
+    "displayName": "Label",
+    "purpose": "Field labels, card and KPI labels, pills. Sentence case."
+   },
+   "rail-label": {
+    "displayName": "Rail label",
+    "purpose": "Uppercase group headings in the left rail only."
+   },
+   "wordmark": {
+    "displayName": "Wordmark",
+    "purpose": "The name IMPRESA beside the brand seal."
+   },
+   "mono": {
+    "displayName": "Mono",
+    "purpose": "Serials, dates, the exchange rate, the supporting-currency line, chart ticks."
+   }
+  },
+  "shadows": [
+   {
+    "name": "shadow-1",
+    "value": "0 1px 2px rgba(22,32,42,.05)",
+    "purpose": "Contact: panels, cards, notes, the active rail item and active tab."
+   },
+   {
+    "name": "shadow-2",
+    "value": "0 8px 24px -8px rgba(22,32,42,.18),0 2px 6px rgba(22,32,42,.06)",
+    "purpose": "Float: dropdown lists, the drenched note, account card hover, the login card, the open mobile rail."
+   },
+   {
+    "name": "modal",
+    "value": "0 24px 60px -12px rgba(22,32,42,.4)",
+    "purpose": "The dialog sheet over a 42% ink scrim."
+   },
+   {
+    "name": "focus-halo",
+    "value": "0 0 0 3px #dfeaf1",
+    "purpose": "Fields and compound fields on focus, with a Córdoba Ink border."
+   }
+  ],
+  "motion": [
+   {
+    "name": "ease",
+    "value": "cubic-bezier(.16,1,.3,1)",
+    "purpose": "The single easing curve for entrances, bar growth, the line draw and the note flip."
+   },
+   {
+    "name": "state",
+    "value": "150ms",
+    "purpose": "Hover and focus transitions on controls; 120ms on table rows; 100ms press (1px down)."
+   },
+   {
+    "name": "rise",
+    "value": "220ms",
+    "purpose": "A module body or modal entering: 5px up from 35% opacity."
+   },
+   {
+    "name": "flip-in",
+    "value": "320ms",
+    "purpose": "Numerals swapping in place when the leading currency is flipped; the note changes ink over 500ms."
+   },
+   {
+    "name": "count-up",
+    "value": "520ms quartic ease-out",
+    "purpose": "A value counting to its new figure when it changes within the same currency."
+   },
+   {
+    "name": "grow",
+    "value": "800ms",
+    "purpose": "Bars and composition segments growing from the left."
+   },
+   {
+    "name": "draw",
+    "value": "1000ms",
+    "purpose": "The trend line drawing itself."
+   },
+   {
+    "name": "saved",
+    "value": "1100ms",
+    "purpose": "A just-saved row flashing, then resting on Córdoba Wash until hovered."
+   },
+   {
+    "name": "reduced-motion",
+    "value": "prefers-reduced-motion: reduce",
+    "purpose": "All animations and transitions collapse to an instant change; count-ups jump to the final value."
+   }
+  ],
+  "breakpoints": [
+   {
+    "name": "stack",
+    "value": "1180px",
+    "purpose": "Notes and dashboard spans become one column."
+   },
+   {
+    "name": "rail",
+    "value": "900px",
+    "purpose": "The rail goes off-canvas behind a menu button; header stops being sticky; gutter 16px."
+   },
+   {
+    "name": "narrow",
+    "value": "560px",
+    "purpose": "Forms become one column; note value 32px; serial hidden; tabs scroll sideways."
+   }
+  ]
+ },
+ "components": [
+  {
+   "name": "Note (banknote total)",
+   "kind": "custom",
+   "refersTo": "note",
+   "description": "The main total of a module: framed sheet with rosette seal, serial, currency flip, both currencies, and its breakdown beside it.",
+   "html": "<section class=\"ds-note\"><svg class=\"ds-band\" viewBox=\"0 0 600 120\" preserveAspectRatio=\"none\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\".6\"><path d=\"M0 60L10 74L20 86L30 92L40 93L50 88L60 81L70 70L80 55L90 38L100 23L110 14L120 16L130 28L140 46L150 64L160 77L170 83L180 85L190 83L200 81L210 75L220 67L230 58L240 50L250 47L260 50L270 55L280 60L290 61L300 60L310 59L320 60L330 65L340 70L350 73L360 70L370 62L380 53L390 45L400 39L410 37L420 35L430 37L440 43L450 56L460 74L470 92L480 104L490 106L500 97L510 82L520 65L530 50L540 39L550 32L560 27L570 28L580 34L590 46L600 60\"/><path d=\"M0 75L10 89L20 99L30 99L40 89L50 73L60 56L70 41L80 30L90 23L100 20L110 23L120 33L130 49L140 67L150 82L160 90L170 88L180 80L190 71L200 65L210 61L220 59L230 56L240 52L250 50L260 52L270 56L280 61L290 65L300 65L310 64L320 64L330 66L340 69L350 69L360 64L370 53L380 40L390 31L400 28L410 33L420 43L430 55L440 68L450 81L460 93L470 101L480 103L490 96L500 80L510 59L520 40L530 29L540 27L550 31L560 38L570 45L580 53L590 60L600 68\"/><path d=\"M0 90L10 96L20 97L30 88L40 71L50 50L60 31L70 20L80 18L90 24L100 34L110 46L120 58L130 69L140 80L150 87L160 87L170 81L180 70L190 60L200 54L210 53L220 55L230 58L240 57L250 55L260 54L270 57L280 62L290 68L300 71L310 71L320 68L330 65L340 61L350 57L360 50L370 40L380 30L390 26L400 30L410 44L420 62L430 81L440 94L450 100L460 99L470 94L480 85L490 72L500 56L510 39L520 27L530 24L540 29L550 41L560 54L570 63L580 67L590 68L600 68\"/><path d=\"M0 94L10 87L20 77L30 63L40 46L50 29L60 17L70 15L80 23L90 39L100 56L110 70L120 77L130 80L140 80L150 78L160 76L170 70L180 62L190 55L200 50L210 51L220 55L230 59L240 61L250 60L260 59L270 60L280 65L290 71L300 76L310 74L320 67L330 57L340 47L350 39L360 34L370 32L380 32L390 37L400 48L410 65L420 85L430 100L440 107L450 102L460 89L470 73L480 58L490 46L500 38L510 32L520 30L530 34L540 42L550 54L560 66L570 73L580 73L590 69L600 64\"/><path d=\"M0 82L10 65L20 49L30 36L40 27L50 22L60 22L70 29L80 42L90 59L100 74L110 84L120 85L130 79L140 72L150 66L160 63L170 61L180 59L190 56L200 52L210 52L220 54L230 59L240 64L250 66L260 66L270 66L280 68L290 72L300 73L310 68L320 57L330 43L340 30L350 24L360 27L370 35L380 48L390 61L400 75L410 88L420 99L430 104L440 100L450 87L460 68L470 49L480 36L490 31L500 33L510 39L520 45L530 50L540 56L550 63L560 69L570 73L580 72L590 67L600 61\"/><path d=\"M0 60L10 39L20 25L30 20L40 23L50 32L60 42L70 52L80 62L90 73L100 81L110 84L120 81L130 72L140 63L150 56L160 54L170 56L180 59L190 59L200 56L210 54L220 55L230 60L240 67L250 73L260 75L270 73L280 69L290 65L300 60L310 52L320 42L330 30L340 23L350 24L360 34L370 53L380 73L390 88L400 97L410 99L420 96L430 89L440 78L450 64L460 48L470 35L480 28L490 30L500 39L510 51L520 60L530 64L540 65L550 65L560 66L570 67L580 68L590 65L600 60\"/><path d=\"M0 38L10 23L20 17L30 21L40 34L50 50L60 64L70 72L80 75L90 76L100 75L110 74L120 71L130 65L140 58L150 53L160 52L170 54L180 58L190 61L200 60L210 59L220 59L230 64L240 72L250 78L260 79L270 73L280 63L290 50L300 40L310 33L320 29L330 28L340 31L350 40L360 56L370 76L380 94L390 105L400 104L410 94L420 79L430 65L440 53L450 44L460 38L470 35L480 35L490 41L500 50L510 61L520 69L530 71L540 68L550 63L560 61L570 61L580 63L590 63L600 59\"/><path d=\"M0 26L10 24L20 27L30 37L40 51L50 67L60 78L70 81L80 78L90 71L100 65L110 63L120 62L130 61L140 58L150 54L160 52L170 53L180 57L190 62L200 65L210 67L220 68L230 71L240 75L250 77L260 73L270 63L280 48L290 33L300 23L310 21L320 28L330 40L340 54L350 68L360 82L370 94L380 102L390 102L400 93L410 76L420 58L430 43L440 36L450 36L460 40L470 45L480 50L490 54L500 59L510 65L520 69L530 70L540 67L550 62L560 58L570 57L580 58L590 58L600 56\"/><path d=\"M0 30L10 39L20 48L30 57L40 66L50 74L60 79L70 79L80 73L90 65L100 58L110 55L120 57L130 59L140 60L150 57L160 54L170 53L180 58L190 65L200 73L210 77L220 78L230 75L240 70L250 64L260 56L270 45L280 32L290 21L300 19L310 26L320 43L330 63L340 81L350 93L360 98L370 97L380 92L390 83L400 71L410 56L420 43L430 34L440 33L450 39L460 49L470 58L480 62L490 63L500 62L510 63L520 65L530 67L540 66L550 62L560 57L570 52L580 51L590 51L600 52\"/><path d=\"M0 45L10 58L20 67L30 71L40 72L50 72L60 72L70 71L80 67L90 61L100 56L110 53L120 54L130 57L140 59L150 59L160 58L170 59L180 63L190 72L200 80L210 84L220 80L230 70L240 56L250 44L260 34L270 28L280 25L290 26L300 33L310 47L320 67L330 86L340 100L350 104L360 98L370 85L380 71L390 59L400 50L410 44L420 40L430 38L440 41L450 48L460 57L470 65L480 69L490 67L500 63L510 60L520 61L530 63L540 64L550 61L560 54L570 47L580 44L590 46L600 52\"/></svg><div><div class=\"ds-top\"><svg class=\"ds-seal\" viewBox=\"0 0 120 120\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\".5\"><path d=\"M90.0 60.0L97.4 62.5L100.8 65.4L98.4 67.6L91.9 68.5L85.0 68.5L81.4 68.8L82.2 71.0L86.0 75.0L89.3 79.6L89.3 82.5L85.3 82.1L79.1 79.1L73.8 75.7L71.5 75.0L72.5 78.7L75.0 86.0L76.6 93.6L75.7 98.0L72.6 97.1L68.5 91.9L65.2 85.9L63.0 82.9L61.6 84.7L60.0 90.0L57.7 95.1L55.2 96.6L53.4 92.9L53.0 86.1L53.3 79.8L52.8 77.4L50.1 80.2L45.0 86.0L39.2 91.2L35.0 92.6L34.2 89.4L36.7 83.3L40.1 77.4L41.7 74.1L39.4 73.8L34.0 75.0L28.4 75.6L25.9 74.1L28.2 70.8L33.9 67.0L39.5 64.1L41.3 62.5L37.6 61.5L30.0 60.0L22.6 57.5L19.2 54.6L21.6 52.4L28.1 51.5L35.0 51.5L38.6 51.2L37.8 49.0L34.0 45.0L30.7 40.4L30.7 37.5L34.7 37.9L40.9 40.9L46.2 44.3L48.5 45.0L47.5 41.3L45.0 34.0L43.4 26.4L44.3 22.0L47.4 22.9L51.5 28.1L54.8 34.1L57.0 37.1L58.4 35.3L60.0 30.0L62.3 24.9L64.8 23.4L66.6 27.1L67.0 33.9L66.7 40.2L67.2 42.6L69.9 39.8L75.0 34.0L80.8 28.8L85.0 27.4L85.8 30.6L83.3 36.7L79.9 42.6L78.3 45.9L80.6 46.2L86.0 45.0L91.6 44.4L94.1 45.9L91.8 49.2L86.1 53.0L80.5 55.9L78.7 57.5L82.4 58.5L90.0 60.0Z\"/><path d=\"M93.4 60.0L100.5 62.7L102.3 65.6L98.2 67.6L90.8 68.3L84.6 68.4L82.8 69.4L85.5 72.6L90.3 77.5L93.1 82.1L91.5 84.1L85.7 82.5L78.5 78.5L73.2 75.1L71.8 75.4L73.8 80.6L76.7 88.9L77.9 96.4L76.3 99.4L72.5 96.9L68.3 90.8L65.1 85.5L63.2 84.4L61.9 88.4L60.0 94.9L57.4 99.7L54.8 99.3L53.3 93.5L53.2 85.2L53.6 79.0L52.6 78.0L49.0 82.3L43.3 88.9L37.5 93.7L34.0 93.8L34.3 89.3L37.4 82.6L40.5 77.1L40.5 75.0L36.3 75.8L29.7 77.5L24.3 77.6L23.4 75.2L27.6 71.0L34.8 66.8L40.3 63.9L40.7 62.5L35.2 61.6L26.6 60.0L19.5 57.3L17.7 54.4L21.8 52.4L29.2 51.7L35.4 51.6L37.2 50.6L34.5 47.4L29.7 42.5L26.9 37.9L28.5 35.9L34.3 37.5L41.5 41.5L46.8 44.9L48.2 44.6L46.2 39.4L43.3 31.1L42.1 23.6L43.7 20.6L47.5 23.1L51.7 29.2L54.9 34.5L56.8 35.6L58.1 31.6L60.0 25.1L62.6 20.3L65.2 20.7L66.7 26.5L66.8 34.8L66.4 41.0L67.4 42.0L71.0 37.7L76.7 31.1L82.5 26.3L86.0 26.2L85.7 30.7L82.6 37.4L79.5 42.9L79.5 45.0L83.7 44.2L90.3 42.5L95.7 42.4L96.6 44.8L92.4 49.0L85.2 53.2L79.7 56.1L79.3 57.5L84.8 58.4L93.4 60.0Z\"/><path d=\"M97.1 60.0L103.1 62.8L103.0 65.7L97.1 67.4L89.4 67.9L84.4 68.3L84.7 70.2L89.4 74.5L94.7 80.0L96.6 84.5L93.1 85.4L85.7 82.5L77.8 77.8L73.1 74.9L72.8 76.6L75.6 83.3L78.5 92.1L79.1 98.8L76.6 100.0L72.2 95.8L67.9 89.4L65.0 85.2L63.5 86.5L62.1 92.7L60.0 100.1L57.1 103.9L54.5 101.4L53.3 93.5L53.5 84.3L53.6 78.7L52.0 79.4L47.6 85.1L41.5 92.1L36.0 96.0L33.6 94.4L35.1 88.4L38.5 81.5L40.6 77.0L38.8 76.3L32.7 78.2L25.3 80.0L20.5 79.5L21.4 76.0L27.6 71.0L35.7 66.5L40.6 63.9L39.2 62.7L32.0 61.8L22.9 60.0L16.9 57.2L17.0 54.3L22.9 52.6L30.6 52.1L35.6 51.7L35.3 49.8L30.6 45.5L25.3 39.9L23.4 35.5L26.9 34.6L34.3 37.5L42.2 42.2L46.9 45.1L47.2 43.4L44.4 36.7L41.4 27.9L40.9 21.2L43.4 20.0L47.8 24.2L52.1 30.6L55.0 34.8L56.5 33.5L57.9 27.3L60.0 19.9L62.9 16.1L65.5 18.6L66.7 26.5L66.5 35.7L66.4 41.3L68.0 40.6L72.4 34.9L78.6 27.9L84.0 24.0L86.4 25.6L84.9 31.6L81.5 38.5L79.4 43.0L81.2 43.7L87.3 41.8L94.7 40.0L99.5 40.5L98.6 44.0L92.4 49.0L84.3 53.5L79.4 56.1L80.8 57.3L88.0 58.2L97.1 60.0Z\"/><path d=\"M101.0 60.0L105.3 63.0L102.7 65.6L95.3 67.0L87.7 67.4L84.5 68.3L87.3 71.3L93.7 76.6L99.1 82.6L99.6 86.5L94.2 86.2L85.3 82.2L77.3 77.3L73.4 75.3L74.3 78.7L77.8 86.6L80.5 95.5L80.1 100.7L76.5 99.8L71.6 94.0L67.4 87.7L65.0 85.4L63.9 89.3L62.5 97.5L60.0 105.2L56.9 107.5L54.4 102.7L53.4 93.0L53.7 83.6L53.5 79.2L51.0 81.7L45.8 88.7L39.5 95.5L34.8 97.7L33.8 94.2L36.3 87.0L39.7 80.3L40.5 77.1L36.6 78.0L28.8 80.9L20.9 82.6L17.3 81.1L20.2 76.5L28.1 70.8L36.4 66.3L40.1 64.0L36.7 63.1L28.0 62.1L19.0 60.0L14.7 57.0L17.3 54.4L24.7 53.0L32.3 52.6L35.5 51.7L32.7 48.7L26.3 43.4L20.9 37.4L20.4 33.5L25.8 33.8L34.7 37.8L42.7 42.7L46.6 44.7L45.7 41.3L42.2 33.4L39.5 24.5L39.9 19.3L43.5 20.2L48.4 26.0L52.6 32.3L55.0 34.6L56.1 30.7L57.5 22.5L60.0 14.8L63.1 12.5L65.6 17.3L66.6 27.0L66.3 36.4L66.5 40.8L69.0 38.3L74.2 31.3L80.5 24.5L85.2 22.3L86.2 25.8L83.7 33.0L80.3 39.7L79.5 42.9L83.4 42.0L91.2 39.1L99.1 37.4L102.7 38.9L99.8 43.5L91.9 49.2L83.6 53.7L79.9 56.0L83.3 56.9L92.0 57.9L101.0 60.0Z\"/><path d=\"M104.7 60.0L106.6 63.1L101.6 65.5L92.9 66.5L86.1 67.0L85.2 68.6L90.5 72.6L98.2 78.9L103.2 85.0L101.9 88.0L94.5 86.5L84.6 81.6L77.0 77.0L74.4 76.4L76.6 81.6L80.4 90.5L82.4 98.7L80.7 101.9L76.0 98.7L70.8 91.8L67.0 86.1L65.2 86.1L64.3 92.7L62.8 102.5L60.0 109.9L56.7 110.3L54.3 103.1L53.6 92.1L53.8 83.2L53.0 80.7L49.6 85.1L43.8 92.9L37.6 98.7L34.0 98.9L34.5 93.3L37.9 85.2L40.9 79.1L40.0 77.5L33.8 80.1L24.5 83.7L16.8 85.0L14.8 82.3L19.8 76.6L29.0 70.5L36.8 66.2L38.6 64.3L33.0 63.6L23.4 62.4L15.3 60.0L13.4 56.9L18.4 54.5L27.1 53.5L33.9 53.0L34.8 51.4L29.5 47.4L21.8 41.1L16.8 35.0L18.1 32.0L25.5 33.5L35.4 38.4L43.0 43.0L45.6 43.6L43.4 38.4L39.6 29.5L37.6 21.3L39.3 18.1L44.0 21.3L49.2 28.2L53.0 33.9L54.8 33.9L55.7 27.3L57.2 17.5L60.0 10.1L63.3 9.7L65.7 16.9L66.4 27.9L66.2 36.8L67.0 39.3L70.4 34.9L76.2 27.1L82.4 21.3L86.0 21.1L85.5 26.7L82.1 34.8L79.1 40.9L80.0 42.5L86.2 39.9L95.5 36.3L103.2 35.0L105.2 37.7L100.2 43.4L91.0 49.5L83.2 53.8L81.4 55.7L87.0 56.4L96.6 57.6L104.7 60.0Z\"/><path d=\"M108.1 60.0L107.2 63.1L99.7 65.2L90.3 66.0L84.9 66.7L86.6 69.0L94.3 74.2L102.8 81.1L106.7 87.0L103.3 88.9L94.1 86.2L83.8 80.9L77.1 77.1L76.1 78.4L79.4 85.3L83.2 94.7L84.1 101.7L80.9 102.4L75.3 96.9L69.9 89.2L66.7 84.9L65.5 87.6L64.8 96.8L63.1 107.6L60.0 113.9L56.6 112.0L54.4 102.6L53.8 91.0L53.7 83.4L52.1 83.2L47.8 89.5L41.5 97.5L35.9 101.7L33.7 99.3L35.7 91.7L39.7 83.2L41.8 78.2L38.8 78.6L30.6 82.6L20.3 86.5L13.3 87.0L13.3 83.0L20.3 76.5L30.0 70.2L36.6 66.3L36.0 64.8L28.4 64.2L18.3 62.7L11.9 60.0L12.8 56.9L20.3 54.8L29.7 54.0L35.1 53.3L33.4 51.0L25.7 45.8L17.2 38.9L13.3 33.0L16.7 31.1L25.9 33.8L36.2 39.1L42.9 42.9L43.9 41.6L40.6 34.7L36.8 25.3L35.9 18.3L39.1 17.6L44.7 23.1L50.1 30.8L53.3 35.1L54.5 32.4L55.2 23.2L56.9 12.4L60.0 6.1L63.4 8.0L65.6 17.4L66.2 29.0L66.3 36.6L67.9 36.8L72.2 30.5L78.5 22.5L84.1 18.3L86.3 20.7L84.3 28.3L80.3 36.8L78.2 41.8L81.2 41.4L89.4 37.4L99.7 33.5L106.7 33.0L106.7 37.0L99.7 43.5L90.0 49.8L83.4 53.7L84.0 55.2L91.6 55.8L101.7 57.3L108.1 60.0Z\"/></svg><h2>Vendido en el mes</h2><span class=\"ds-serial\">VTA 2026-10</span><div class=\"ds-flip\" role=\"group\" aria-label=\"Moneda al frente\"><button class=\"on\" aria-pressed=\"true\">C$</button><button aria-pressed=\"false\">US$</button></div></div><p class=\"ds-value\">C$37,370.00</p><p class=\"ds-back\">US$1,010.00 <span>al cambio de C$37.00</span></p><p class=\"ds-caption\">12 ventas registradas</p></div><div class=\"ds-break\"><h3>Cobros</h3><div><span>Cobrado de estas ventas</span><b>C$30,000.00</b></div><div><span>Falta cobrar del mes</span><b>C$7,370.00</b></div></div></section>",
+   "css": ".ds-note{--tone:var(--cordoba);position:relative;overflow:hidden;display:grid;grid-template-columns:minmax(260px,1fr) minmax(0,1.2fr);gap:32px;padding:24px 30px 78px;border-radius:6px;background:var(--sheet);border:1px solid var(--line);box-shadow:0 1px 2px rgba(22,32,42,.05);font-family:var(--font,Archivo,ui-sans-serif,system-ui,sans-serif);color:var(--ink)} .ds-note::before{content:\"\";position:absolute;inset:6px;border:1px solid var(--tone);opacity:.28;border-radius:3px;pointer-events:none} .ds-note .ds-band{position:absolute;left:7px;right:7px;bottom:7px;width:calc(100% - 14px);height:56px;color:var(--tone);opacity:.3} .ds-note .ds-seal{flex:0 0 auto;width:44px;height:44px;margin:-6px -2px -6px -4px;color:var(--tone)} .ds-note .ds-top{display:flex;align-items:center;gap:10px} .ds-note h2{margin:0;font-size:14px;font-weight:680;color:var(--tone)} .ds-note .ds-serial{font-family:var(--mono,'Red Hat Mono',ui-monospace,Consolas,monospace);font-size:12px;letter-spacing:.06em;color:var(--ink-3);margin-right:auto} .ds-note .ds-flip{display:inline-flex;gap:2px;padding:3px;border-radius:9px;background:rgba(22,32,42,.07)} .ds-note .ds-flip button{border:0;background:transparent;padding:4px 11px;border-radius:6px;font:inherit;font-size:12.5px;font-weight:680;color:var(--ink-2);cursor:pointer;transition:background .2s,color .2s} .ds-note .ds-flip button.on{background:var(--tone);color:#fff} .ds-note .ds-flip button:focus-visible{outline:2px solid var(--cordoba-2);outline-offset:2px} .ds-note .ds-value{margin:14px 0 6px;font-size:44px;font-weight:640;font-stretch:112%;letter-spacing:-.02em;line-height:1.05;color:var(--tone);font-variant-numeric:tabular-nums} .ds-note .ds-back{margin:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;font-size:18px;font-weight:620;font-variant-numeric:tabular-nums} .ds-note .ds-back span{font-family:var(--mono,'Red Hat Mono',ui-monospace,Consolas,monospace);font-size:12.5px;font-weight:500;color:var(--ink-3)} .ds-note .ds-caption{margin:12px 0 0;font-size:13.5px;color:var(--ink-2)} .ds-note .ds-break h3{margin:0 0 6px;font-size:14px;font-weight:680} .ds-note .ds-break div{display:flex;justify-content:space-between;gap:16px;padding:7px 0;border-bottom:1px solid var(--line-soft);font-size:13.5px} .ds-note .ds-break span{color:var(--ink-2)} .ds-note .ds-break b{font-variant-numeric:tabular-nums}"
+  },
+  {
+   "name": "Drenched note",
+   "kind": "custom",
+   "refersTo": "note-drenched",
+   "description": "One per screen: the business value, filled with the leading ink, with the composition bar of where the value sits.",
+   "html": "<section class=\"ds-noted\"><svg class=\"ds-band\" viewBox=\"0 0 600 120\" preserveAspectRatio=\"none\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\".6\"><path d=\"M0 60L10 74L20 86L30 92L40 93L50 88L60 81L70 70L80 55L90 38L100 23L110 14L120 16L130 28L140 46L150 64L160 77L170 83L180 85L190 83L200 81L210 75L220 67L230 58L240 50L250 47L260 50L270 55L280 60L290 61L300 60L310 59L320 60L330 65L340 70L350 73L360 70L370 62L380 53L390 45L400 39L410 37L420 35L430 37L440 43L450 56L460 74L470 92L480 104L490 106L500 97L510 82L520 65L530 50L540 39L550 32L560 27L570 28L580 34L590 46L600 60\"/><path d=\"M0 75L10 89L20 99L30 99L40 89L50 73L60 56L70 41L80 30L90 23L100 20L110 23L120 33L130 49L140 67L150 82L160 90L170 88L180 80L190 71L200 65L210 61L220 59L230 56L240 52L250 50L260 52L270 56L280 61L290 65L300 65L310 64L320 64L330 66L340 69L350 69L360 64L370 53L380 40L390 31L400 28L410 33L420 43L430 55L440 68L450 81L460 93L470 101L480 103L490 96L500 80L510 59L520 40L530 29L540 27L550 31L560 38L570 45L580 53L590 60L600 68\"/><path d=\"M0 90L10 96L20 97L30 88L40 71L50 50L60 31L70 20L80 18L90 24L100 34L110 46L120 58L130 69L140 80L150 87L160 87L170 81L180 70L190 60L200 54L210 53L220 55L230 58L240 57L250 55L260 54L270 57L280 62L290 68L300 71L310 71L320 68L330 65L340 61L350 57L360 50L370 40L380 30L390 26L400 30L410 44L420 62L430 81L440 94L450 100L460 99L470 94L480 85L490 72L500 56L510 39L520 27L530 24L540 29L550 41L560 54L570 63L580 67L590 68L600 68\"/><path d=\"M0 94L10 87L20 77L30 63L40 46L50 29L60 17L70 15L80 23L90 39L100 56L110 70L120 77L130 80L140 80L150 78L160 76L170 70L180 62L190 55L200 50L210 51L220 55L230 59L240 61L250 60L260 59L270 60L280 65L290 71L300 76L310 74L320 67L330 57L340 47L350 39L360 34L370 32L380 32L390 37L400 48L410 65L420 85L430 100L440 107L450 102L460 89L470 73L480 58L490 46L500 38L510 32L520 30L530 34L540 42L550 54L560 66L570 73L580 73L590 69L600 64\"/><path d=\"M0 82L10 65L20 49L30 36L40 27L50 22L60 22L70 29L80 42L90 59L100 74L110 84L120 85L130 79L140 72L150 66L160 63L170 61L180 59L190 56L200 52L210 52L220 54L230 59L240 64L250 66L260 66L270 66L280 68L290 72L300 73L310 68L320 57L330 43L340 30L350 24L360 27L370 35L380 48L390 61L400 75L410 88L420 99L430 104L440 100L450 87L460 68L470 49L480 36L490 31L500 33L510 39L520 45L530 50L540 56L550 63L560 69L570 73L580 72L590 67L600 61\"/><path d=\"M0 60L10 39L20 25L30 20L40 23L50 32L60 42L70 52L80 62L90 73L100 81L110 84L120 81L130 72L140 63L150 56L160 54L170 56L180 59L190 59L200 56L210 54L220 55L230 60L240 67L250 73L260 75L270 73L280 69L290 65L300 60L310 52L320 42L330 30L340 23L350 24L360 34L370 53L380 73L390 88L400 97L410 99L420 96L430 89L440 78L450 64L460 48L470 35L480 28L490 30L500 39L510 51L520 60L530 64L540 65L550 65L560 66L570 67L580 68L590 65L600 60\"/><path d=\"M0 38L10 23L20 17L30 21L40 34L50 50L60 64L70 72L80 75L90 76L100 75L110 74L120 71L130 65L140 58L150 53L160 52L170 54L180 58L190 61L200 60L210 59L220 59L230 64L240 72L250 78L260 79L270 73L280 63L290 50L300 40L310 33L320 29L330 28L340 31L350 40L360 56L370 76L380 94L390 105L400 104L410 94L420 79L430 65L440 53L450 44L460 38L470 35L480 35L490 41L500 50L510 61L520 69L530 71L540 68L550 63L560 61L570 61L580 63L590 63L600 59\"/><path d=\"M0 26L10 24L20 27L30 37L40 51L50 67L60 78L70 81L80 78L90 71L100 65L110 63L120 62L130 61L140 58L150 54L160 52L170 53L180 57L190 62L200 65L210 67L220 68L230 71L240 75L250 77L260 73L270 63L280 48L290 33L300 23L310 21L320 28L330 40L340 54L350 68L360 82L370 94L380 102L390 102L400 93L410 76L420 58L430 43L440 36L450 36L460 40L470 45L480 50L490 54L500 59L510 65L520 69L530 70L540 67L550 62L560 58L570 57L580 58L590 58L600 56\"/><path d=\"M0 30L10 39L20 48L30 57L40 66L50 74L60 79L70 79L80 73L90 65L100 58L110 55L120 57L130 59L140 60L150 57L160 54L170 53L180 58L190 65L200 73L210 77L220 78L230 75L240 70L250 64L260 56L270 45L280 32L290 21L300 19L310 26L320 43L330 63L340 81L350 93L360 98L370 97L380 92L390 83L400 71L410 56L420 43L430 34L440 33L450 39L460 49L470 58L480 62L490 63L500 62L510 63L520 65L530 67L540 66L550 62L560 57L570 52L580 51L590 51L600 52\"/><path d=\"M0 45L10 58L20 67L30 71L40 72L50 72L60 72L70 71L80 67L90 61L100 56L110 53L120 54L130 57L140 59L150 59L160 58L170 59L180 63L190 72L200 80L210 84L220 80L230 70L240 56L250 44L260 34L270 28L280 25L290 26L300 33L310 47L320 67L330 86L340 100L350 104L360 98L370 85L380 71L390 59L400 50L410 44L420 40L430 38L440 41L450 48L460 57L470 65L480 69L490 67L500 63L510 60L520 61L530 63L540 64L550 61L560 54L570 47L580 44L590 46L600 52\"/></svg><div><div class=\"ds-top\"><svg class=\"ds-seal\" viewBox=\"0 0 120 120\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\".5\"><path d=\"M90.0 60.0L97.4 62.5L100.8 65.4L98.4 67.6L91.9 68.5L85.0 68.5L81.4 68.8L82.2 71.0L86.0 75.0L89.3 79.6L89.3 82.5L85.3 82.1L79.1 79.1L73.8 75.7L71.5 75.0L72.5 78.7L75.0 86.0L76.6 93.6L75.7 98.0L72.6 97.1L68.5 91.9L65.2 85.9L63.0 82.9L61.6 84.7L60.0 90.0L57.7 95.1L55.2 96.6L53.4 92.9L53.0 86.1L53.3 79.8L52.8 77.4L50.1 80.2L45.0 86.0L39.2 91.2L35.0 92.6L34.2 89.4L36.7 83.3L40.1 77.4L41.7 74.1L39.4 73.8L34.0 75.0L28.4 75.6L25.9 74.1L28.2 70.8L33.9 67.0L39.5 64.1L41.3 62.5L37.6 61.5L30.0 60.0L22.6 57.5L19.2 54.6L21.6 52.4L28.1 51.5L35.0 51.5L38.6 51.2L37.8 49.0L34.0 45.0L30.7 40.4L30.7 37.5L34.7 37.9L40.9 40.9L46.2 44.3L48.5 45.0L47.5 41.3L45.0 34.0L43.4 26.4L44.3 22.0L47.4 22.9L51.5 28.1L54.8 34.1L57.0 37.1L58.4 35.3L60.0 30.0L62.3 24.9L64.8 23.4L66.6 27.1L67.0 33.9L66.7 40.2L67.2 42.6L69.9 39.8L75.0 34.0L80.8 28.8L85.0 27.4L85.8 30.6L83.3 36.7L79.9 42.6L78.3 45.9L80.6 46.2L86.0 45.0L91.6 44.4L94.1 45.9L91.8 49.2L86.1 53.0L80.5 55.9L78.7 57.5L82.4 58.5L90.0 60.0Z\"/><path d=\"M93.4 60.0L100.5 62.7L102.3 65.6L98.2 67.6L90.8 68.3L84.6 68.4L82.8 69.4L85.5 72.6L90.3 77.5L93.1 82.1L91.5 84.1L85.7 82.5L78.5 78.5L73.2 75.1L71.8 75.4L73.8 80.6L76.7 88.9L77.9 96.4L76.3 99.4L72.5 96.9L68.3 90.8L65.1 85.5L63.2 84.4L61.9 88.4L60.0 94.9L57.4 99.7L54.8 99.3L53.3 93.5L53.2 85.2L53.6 79.0L52.6 78.0L49.0 82.3L43.3 88.9L37.5 93.7L34.0 93.8L34.3 89.3L37.4 82.6L40.5 77.1L40.5 75.0L36.3 75.8L29.7 77.5L24.3 77.6L23.4 75.2L27.6 71.0L34.8 66.8L40.3 63.9L40.7 62.5L35.2 61.6L26.6 60.0L19.5 57.3L17.7 54.4L21.8 52.4L29.2 51.7L35.4 51.6L37.2 50.6L34.5 47.4L29.7 42.5L26.9 37.9L28.5 35.9L34.3 37.5L41.5 41.5L46.8 44.9L48.2 44.6L46.2 39.4L43.3 31.1L42.1 23.6L43.7 20.6L47.5 23.1L51.7 29.2L54.9 34.5L56.8 35.6L58.1 31.6L60.0 25.1L62.6 20.3L65.2 20.7L66.7 26.5L66.8 34.8L66.4 41.0L67.4 42.0L71.0 37.7L76.7 31.1L82.5 26.3L86.0 26.2L85.7 30.7L82.6 37.4L79.5 42.9L79.5 45.0L83.7 44.2L90.3 42.5L95.7 42.4L96.6 44.8L92.4 49.0L85.2 53.2L79.7 56.1L79.3 57.5L84.8 58.4L93.4 60.0Z\"/><path d=\"M97.1 60.0L103.1 62.8L103.0 65.7L97.1 67.4L89.4 67.9L84.4 68.3L84.7 70.2L89.4 74.5L94.7 80.0L96.6 84.5L93.1 85.4L85.7 82.5L77.8 77.8L73.1 74.9L72.8 76.6L75.6 83.3L78.5 92.1L79.1 98.8L76.6 100.0L72.2 95.8L67.9 89.4L65.0 85.2L63.5 86.5L62.1 92.7L60.0 100.1L57.1 103.9L54.5 101.4L53.3 93.5L53.5 84.3L53.6 78.7L52.0 79.4L47.6 85.1L41.5 92.1L36.0 96.0L33.6 94.4L35.1 88.4L38.5 81.5L40.6 77.0L38.8 76.3L32.7 78.2L25.3 80.0L20.5 79.5L21.4 76.0L27.6 71.0L35.7 66.5L40.6 63.9L39.2 62.7L32.0 61.8L22.9 60.0L16.9 57.2L17.0 54.3L22.9 52.6L30.6 52.1L35.6 51.7L35.3 49.8L30.6 45.5L25.3 39.9L23.4 35.5L26.9 34.6L34.3 37.5L42.2 42.2L46.9 45.1L47.2 43.4L44.4 36.7L41.4 27.9L40.9 21.2L43.4 20.0L47.8 24.2L52.1 30.6L55.0 34.8L56.5 33.5L57.9 27.3L60.0 19.9L62.9 16.1L65.5 18.6L66.7 26.5L66.5 35.7L66.4 41.3L68.0 40.6L72.4 34.9L78.6 27.9L84.0 24.0L86.4 25.6L84.9 31.6L81.5 38.5L79.4 43.0L81.2 43.7L87.3 41.8L94.7 40.0L99.5 40.5L98.6 44.0L92.4 49.0L84.3 53.5L79.4 56.1L80.8 57.3L88.0 58.2L97.1 60.0Z\"/><path d=\"M101.0 60.0L105.3 63.0L102.7 65.6L95.3 67.0L87.7 67.4L84.5 68.3L87.3 71.3L93.7 76.6L99.1 82.6L99.6 86.5L94.2 86.2L85.3 82.2L77.3 77.3L73.4 75.3L74.3 78.7L77.8 86.6L80.5 95.5L80.1 100.7L76.5 99.8L71.6 94.0L67.4 87.7L65.0 85.4L63.9 89.3L62.5 97.5L60.0 105.2L56.9 107.5L54.4 102.7L53.4 93.0L53.7 83.6L53.5 79.2L51.0 81.7L45.8 88.7L39.5 95.5L34.8 97.7L33.8 94.2L36.3 87.0L39.7 80.3L40.5 77.1L36.6 78.0L28.8 80.9L20.9 82.6L17.3 81.1L20.2 76.5L28.1 70.8L36.4 66.3L40.1 64.0L36.7 63.1L28.0 62.1L19.0 60.0L14.7 57.0L17.3 54.4L24.7 53.0L32.3 52.6L35.5 51.7L32.7 48.7L26.3 43.4L20.9 37.4L20.4 33.5L25.8 33.8L34.7 37.8L42.7 42.7L46.6 44.7L45.7 41.3L42.2 33.4L39.5 24.5L39.9 19.3L43.5 20.2L48.4 26.0L52.6 32.3L55.0 34.6L56.1 30.7L57.5 22.5L60.0 14.8L63.1 12.5L65.6 17.3L66.6 27.0L66.3 36.4L66.5 40.8L69.0 38.3L74.2 31.3L80.5 24.5L85.2 22.3L86.2 25.8L83.7 33.0L80.3 39.7L79.5 42.9L83.4 42.0L91.2 39.1L99.1 37.4L102.7 38.9L99.8 43.5L91.9 49.2L83.6 53.7L79.9 56.0L83.3 56.9L92.0 57.9L101.0 60.0Z\"/><path d=\"M104.7 60.0L106.6 63.1L101.6 65.5L92.9 66.5L86.1 67.0L85.2 68.6L90.5 72.6L98.2 78.9L103.2 85.0L101.9 88.0L94.5 86.5L84.6 81.6L77.0 77.0L74.4 76.4L76.6 81.6L80.4 90.5L82.4 98.7L80.7 101.9L76.0 98.7L70.8 91.8L67.0 86.1L65.2 86.1L64.3 92.7L62.8 102.5L60.0 109.9L56.7 110.3L54.3 103.1L53.6 92.1L53.8 83.2L53.0 80.7L49.6 85.1L43.8 92.9L37.6 98.7L34.0 98.9L34.5 93.3L37.9 85.2L40.9 79.1L40.0 77.5L33.8 80.1L24.5 83.7L16.8 85.0L14.8 82.3L19.8 76.6L29.0 70.5L36.8 66.2L38.6 64.3L33.0 63.6L23.4 62.4L15.3 60.0L13.4 56.9L18.4 54.5L27.1 53.5L33.9 53.0L34.8 51.4L29.5 47.4L21.8 41.1L16.8 35.0L18.1 32.0L25.5 33.5L35.4 38.4L43.0 43.0L45.6 43.6L43.4 38.4L39.6 29.5L37.6 21.3L39.3 18.1L44.0 21.3L49.2 28.2L53.0 33.9L54.8 33.9L55.7 27.3L57.2 17.5L60.0 10.1L63.3 9.7L65.7 16.9L66.4 27.9L66.2 36.8L67.0 39.3L70.4 34.9L76.2 27.1L82.4 21.3L86.0 21.1L85.5 26.7L82.1 34.8L79.1 40.9L80.0 42.5L86.2 39.9L95.5 36.3L103.2 35.0L105.2 37.7L100.2 43.4L91.0 49.5L83.2 53.8L81.4 55.7L87.0 56.4L96.6 57.6L104.7 60.0Z\"/><path d=\"M108.1 60.0L107.2 63.1L99.7 65.2L90.3 66.0L84.9 66.7L86.6 69.0L94.3 74.2L102.8 81.1L106.7 87.0L103.3 88.9L94.1 86.2L83.8 80.9L77.1 77.1L76.1 78.4L79.4 85.3L83.2 94.7L84.1 101.7L80.9 102.4L75.3 96.9L69.9 89.2L66.7 84.9L65.5 87.6L64.8 96.8L63.1 107.6L60.0 113.9L56.6 112.0L54.4 102.6L53.8 91.0L53.7 83.4L52.1 83.2L47.8 89.5L41.5 97.5L35.9 101.7L33.7 99.3L35.7 91.7L39.7 83.2L41.8 78.2L38.8 78.6L30.6 82.6L20.3 86.5L13.3 87.0L13.3 83.0L20.3 76.5L30.0 70.2L36.6 66.3L36.0 64.8L28.4 64.2L18.3 62.7L11.9 60.0L12.8 56.9L20.3 54.8L29.7 54.0L35.1 53.3L33.4 51.0L25.7 45.8L17.2 38.9L13.3 33.0L16.7 31.1L25.9 33.8L36.2 39.1L42.9 42.9L43.9 41.6L40.6 34.7L36.8 25.3L35.9 18.3L39.1 17.6L44.7 23.1L50.1 30.8L53.3 35.1L54.5 32.4L55.2 23.2L56.9 12.4L60.0 6.1L63.4 8.0L65.6 17.4L66.2 29.0L66.3 36.6L67.9 36.8L72.2 30.5L78.5 22.5L84.1 18.3L86.3 20.7L84.3 28.3L80.3 36.8L78.2 41.8L81.2 41.4L89.4 37.4L99.7 33.5L106.7 33.0L106.7 37.0L99.7 43.5L90.0 49.8L83.4 53.7L84.0 55.2L91.6 55.8L101.7 57.3L108.1 60.0Z\"/></svg><h2>Valor del negocio</h2><span class=\"ds-serial\">IMP 2026-10</span></div><p class=\"ds-value\">C$37,370.00</p><p class=\"ds-back\">US$1,010.00 <span>al cambio de C$37.00</span></p></div><div><div class=\"ds-comp\" role=\"img\" aria-label=\"BAC Dollar 60%, Efectivo 25%, Inventario 15%\"><i style=\"width:60%;background:#8fd4ad\"></i><i style=\"width:25%;background:#a9cde0\"></i><i style=\"width:15%;background:#f1f3ee\"></i></div><ul class=\"ds-legend\"><li><i style=\"background:#8fd4ad\"></i><span>BAC Dollar</span><b>C$22,422.00</b><small>US$606.00 · 60%</small></li><li><i style=\"background:#a9cde0\"></i><span>Efectivo Córdoba</span><b>C$9,342.50</b><small>US$252.50 · 25%</small></li></ul></div></section>",
+   "css": ".ds-noted{position:relative;overflow:hidden;display:grid;grid-template-columns:minmax(260px,1fr) minmax(0,1.2fr);gap:32px;padding:22px 30px 76px;border-radius:6px;background:var(--cordoba);color:#fff;box-shadow:0 8px 24px -8px rgba(22,32,42,.18),0 2px 6px rgba(22,32,42,.06);font-family:var(--font,Archivo,ui-sans-serif,system-ui,sans-serif);} .ds-noted::before{content:\"\";position:absolute;inset:6px;border:1px solid #fff;opacity:.28;border-radius:3px;pointer-events:none} .ds-noted .ds-band{position:absolute;left:7px;right:7px;bottom:7px;width:calc(100% - 14px);height:56px;color:#fff;opacity:.34} .ds-noted .ds-seal{flex:0 0 auto;width:44px;height:44px;margin:-6px -2px -6px -4px;color:#fff} .ds-noted .ds-top{display:flex;align-items:center;gap:10px} .ds-noted h2{margin:0;font-size:14px;font-weight:680;color:#d5e6ef} .ds-noted .ds-serial{font-family:var(--mono,'Red Hat Mono',ui-monospace,Consolas,monospace);font-size:12px;letter-spacing:.06em;color:#d5e6ef} .ds-noted .ds-value{margin:10px 0 6px;font-size:48px;font-weight:640;font-stretch:112%;letter-spacing:-.02em;line-height:1.05;font-variant-numeric:tabular-nums} .ds-noted .ds-back{margin:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;font-size:18px;font-weight:620} .ds-noted .ds-back span{font-family:var(--mono,'Red Hat Mono',ui-monospace,Consolas,monospace);font-size:12.5px;font-weight:500;color:#d5e6ef} .ds-comp{display:flex;gap:2px;height:14px;border-radius:4px;overflow:hidden;background:rgba(255,255,255,.16)} .ds-comp i{display:block;height:100%} .ds-legend{list-style:none;margin:14px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 22px} .ds-legend li{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:8px;align-items:baseline;font-size:13px} .ds-legend i{width:9px;height:9px;border-radius:2px;align-self:center} .ds-legend span{color:#d5e6ef} .ds-legend b{grid-column:2;font-size:15px;font-weight:650;font-variant-numeric:tabular-nums} .ds-legend small{grid-column:2;font-family:var(--mono,'Red Hat Mono',ui-monospace,Consolas,monospace);font-size:12px;color:#d5e6ef}"
+  },
+  {
+   "name": "Primary button",
+   "kind": "button",
+   "refersTo": "button-primary",
+   "description": "The one or two committing actions of a view: register, save, + Venta.",
+   "html": "<button class=\"ds-btn-primary\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14 M5 12h14\"/></svg> Venta</button>",
+   "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--cordoba);background:var(--cordoba);color:#fff;border-radius:8px;padding:9px 14px;font-family:var(--font,Archivo,ui-sans-serif,system-ui,sans-serif);font-weight:620;font-size:14px;line-height:1.2;cursor:pointer;transition:background .15s,border-color .15s,transform .1s} .ds-btn-primary:hover{background:var(--cordoba-2);border-color:var(--cordoba-2)} .ds-btn-primary:active{transform:translateY(1px)} .ds-btn-primary:focus-visible{outline:2px solid var(--cordoba-2);outline-offset:2px}"
+  },
+  {
+   "name": "Default button",
+   "kind": "button",
+   "refersTo": "button-default",
+   "description": "Every other action; a small variant (6 by 10px, 12.5px) is used inside table rows and cards.",
+   "html": "<button class=\"ds-btn\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14 M5 12h14\"/></svg> Gasto</button> <button class=\"ds-btn ds-btn-sm\">Historial</button>",
+   "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--line);background:var(--sheet);color:var(--ink);border-radius:8px;padding:9px 14px;font-family:var(--font,Archivo,ui-sans-serif,system-ui,sans-serif);font-weight:620;font-size:14px;line-height:1.2;cursor:pointer;transition:background .15s,border-color .15s,transform .1s} .ds-btn:hover{border-color:var(--ink-3);background:var(--white)} .ds-btn:active{transform:translateY(1px)} .ds-btn:focus-visible{outline:2px solid var(--cordoba-2);outline-offset:2px} .ds-btn-sm{font-size:12.5px;padding:6px 10px;border-radius:7px}"
+  },
+  {
+   "name": "Delete button",
+   "kind": "button",
+   "refersTo": "button-danger",
+   "description": "Outlined red, unfilled, and set 14px apart from the safe actions next to it.",
+   "html": "<div class=\"ds-actions\"><button class=\"ds-btn-edit\">Editar</button><button class=\"ds-btn-danger\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 7h16 M9 7V4h6v3 M6 7l1 13h10l1-13 M10 11v6 M14 11v6\"/></svg> Borrar</button></div>",
+   "css": ".ds-actions{display:flex;align-items:center;gap:8px} .ds-btn-edit{border:1px solid var(--line);background:var(--sheet);color:var(--ink);border-radius:7px;padding:6px 10px;font-family:var(--font,Archivo,ui-sans-serif,system-ui,sans-serif);font-size:12.5px;font-weight:620;cursor:pointer} .ds-btn-edit:hover{border-color:var(--ink-3);background:var(--white)} .ds-btn-danger{display:inline-flex;align-items:center;gap:6px;margin-left:14px;border:1px solid var(--danger-line);background:transparent;color:var(--danger);border-radius:7px;padding:6px 10px;font-family:var(--font,Archivo,ui-sans-serif,system-ui,sans-serif);font-size:12.5px;font-weight:600;cursor:pointer;transition:background .15s,border-color .15s} .ds-btn-danger:hover,.ds-btn-danger:focus-visible{background:var(--danger-soft);border-color:var(--danger)} .ds-btn-edit:focus-visible,.ds-btn-danger:focus-visible{outline:2px solid var(--cordoba-2);outline-offset:2px}"
+  },
+  {
+   "name": "Field",
+   "kind": "input",
+   "refersTo": "input",
+   "description": "White field with a label above; the amount field joins its currency select under one border and one focus halo.",
+   "html": "<div class=\"ds-fields\"><label class=\"ds-field\"><span>Nombre del cliente</span><input type=\"text\" placeholder=\"Nombre del cliente\"></label><label class=\"ds-field\"><span>Monto</span><div class=\"ds-money\"><input type=\"text\" inputmode=\"decimal\" value=\"1,250.00\"><select aria-label=\"Moneda\"><option>C$</option><option>US$</option></select></div></label></div>",
+   "css": ".ds-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;font-family:var(--font,Archivo,ui-sans-serif,system-ui,sans-serif);} .ds-field{display:grid;gap:5px;min-width:0} .ds-field>span{font-size:12.5px;font-weight:620;color:var(--ink-2)} .ds-field input,.ds-field select{width:100%;min-width:0;min-height:40px;border:1px solid var(--line);border-radius:8px;background:var(--white);color:var(--ink);padding:8px 11px;font:inherit;font-size:14px;font-variant-numeric:tabular-nums;transition:border-color .15s,box-shadow .15s} .ds-field input::placeholder{color:var(--ink-3)} .ds-field>input:hover{border-color:var(--ink-3)} .ds-field>input:focus{outline:none;border-color:var(--cordoba);box-shadow:0 0 0 3px var(--cordoba-soft)} .ds-money{display:flex;border:1px solid var(--line);border-radius:8px;background:var(--white);overflow:hidden;transition:border-color .15s,box-shadow .15s} .ds-money:focus-within{border-color:var(--cordoba);box-shadow:0 0 0 3px var(--cordoba-soft)} .ds-money input{flex:1;border:0;border-radius:0;outline:none} .ds-money select{width:auto;flex:0 0 auto;border:0;border-left:1px solid var(--line);border-radius:0;background:var(--sheet-2);font-weight:680;outline:none}"
+  },
+  {
+   "name": "Month picker",
+   "kind": "custom",
+   "refersTo": "month-picker",
+   "description": "The working month, in foil gold, with previous and next chevrons. Sits in the page header.",
+   "html": "<div class=\"ds-month\" role=\"group\" aria-label=\"Mes de trabajo\"><button aria-label=\"Mes anterior\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M15 6l-6 6 6 6\"/></svg></button><select aria-label=\"Mes\"><option>octubre</option><option>noviembre</option></select><select aria-label=\"Año\"><option>2026</option></select><button aria-label=\"Mes siguiente\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 6l6 6-6 6\"/></svg></button></div>",
+   "css": ".ds-month{display:inline-flex;align-items:center;height:40px;border:1px solid #dcc089;border-radius:8px;background:var(--foil-soft);color:var(--foil-text);font-family:var(--font,Archivo,ui-sans-serif,system-ui,sans-serif);} .ds-month select{height:100%;border:0;background:transparent;padding:0 4px;font:inherit;font-size:14px;font-weight:680;color:inherit;text-transform:capitalize;cursor:pointer} .ds-month button{display:grid;place-items:center;width:34px;height:100%;border:0;background:transparent;color:inherit;border-radius:7px;cursor:pointer} .ds-month button:hover{background:rgba(124,78,6,.12)} .ds-month button:focus-visible,.ds-month select:focus-visible{outline:2px solid var(--cordoba-2);outline-offset:2px}"
+  },
+  {
+   "name": "Rail navigation",
+   "kind": "nav",
+   "refersTo": "nav-item-active",
+   "description": "Grouped module list; the current module is a sheet with a córdoba icon and a foil dot.",
+   "html": "<nav class=\"ds-rail\" aria-label=\"Módulos\"><h3>Resumen</h3><button class=\"active\" aria-current=\"page\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 3h7v7H3z M14 3h7v7h-7z M3 14h7v7H3z M14 14h7v7h-7z\"/></svg><span>Dashboard</span></button><h3>Día a día</h3><button><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 4h2l3 12h11l2-8H6 M9 21h.01 M18 21h.01\"/></svg><span>Ventas</span></button><button><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 3h12v18l-3-2-3 2-3-2-3 2z M9 8h6 M9 12h6\"/></svg><span>Gastos</span></button></nav>",
+   "css": ".ds-rail{display:grid;gap:2px;width:224px;padding:14px 12px;background:var(--rail);border-right:1px solid var(--line);font-family:var(--font,Archivo,ui-sans-serif,system-ui,sans-serif);} .ds-rail h3{margin:10px 0 0;padding:0 10px 4px;font-size:11px;font-weight:650;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)} .ds-rail h3:first-child{margin-top:0} .ds-rail button{display:flex;align-items:center;gap:10px;width:100%;border:0;background:transparent;color:var(--ink-2);text-align:left;padding:8px 10px;border-radius:8px;font:inherit;font-weight:550;font-size:14px;cursor:pointer;transition:background .15s,color .15s} .ds-rail button svg{color:var(--ink-3)} .ds-rail button:hover{background:rgba(22,32,42,.06);color:var(--ink)} .ds-rail button.active{background:var(--sheet);color:var(--ink);font-weight:680;box-shadow:0 1px 2px rgba(22,32,42,.05),inset 0 0 0 1px var(--line)} .ds-rail button.active svg{color:var(--cordoba)} .ds-rail button.active::after{content:\"\";margin-left:auto;width:7px;height:7px;border-radius:50%;background:var(--foil)} .ds-rail button:focus-visible{outline:2px solid var(--cordoba-2);outline-offset:2px}"
+  },
+  {
+   "name": "Status pills",
+   "kind": "chip",
+   "refersTo": "pill",
+   "description": "Gold for open or pending, córdoba wash for closed or transfer, dollar wash for cash, neutral otherwise.",
+   "html": "<span class=\"ds-pill ds-pill-open\">octubre 2026 abierto</span> <span class=\"ds-pill ds-pill-closed\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 11h12v9H6z M8.5 11V8a3.5 3.5 0 0 1 7 0v3\"/></svg> septiembre 2026 cerrado</span> <span class=\"ds-pill ds-pill-cash\">Efectivo</span> <span class=\"ds-pill\">Producto</span>",
+   "css": ".ds-pill{display:inline-flex;align-items:center;gap:4px;padding:2px 9px;border-radius:99px;font-family:var(--font,Archivo,ui-sans-serif,system-ui,sans-serif);font-size:12px;font-weight:620;background:var(--sheet-2);border:1px solid var(--line-soft);color:var(--ink-2);white-space:nowrap} .ds-pill-open{background:var(--foil-soft);border-color:transparent;color:var(--foil-text)} .ds-pill-closed{background:var(--cordoba-soft);border-color:transparent;color:var(--cordoba)} .ds-pill-cash{background:var(--dolar-soft);border-color:transparent;color:#124a35}"
+  },
+  {
+   "name": "Panel with account list",
+   "kind": "card",
+   "refersTo": "panel",
+   "description": "The standard sheet: title with a link button, then rows whose balances are printed in their currency ink.",
+   "html": "<section class=\"ds-panel\"><div class=\"ds-panel-head\"><h2>Dinero disponible</h2><button class=\"ds-link\">Ver cuentas <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14 M13 6l6 6-6 6\"/></svg></button></div><ul><li><div><b>BAC Córdobas</b><div class=\"ds-bar\"><i class=\"c\" style=\"width:38%\"></i></div></div><div class=\"ds-amt\"><strong class=\"c\">C$14,060.00</strong><small>US$380.00</small></div></li><li><div><b>BAC Dollar</b><div class=\"ds-bar\"><i class=\"u\" style=\"width:62%\"></i></div></div><div class=\"ds-amt\"><strong class=\"u\">US$630.00</strong><small>C$23,310.00</small></div></li></ul></section>",
+   "css": ".ds-panel{background:var(--sheet);border:1px solid var(--line-soft);border-radius:12px;box-shadow:0 1px 2px rgba(22,32,42,.05);padding:20px 22px;font-family:var(--font,Archivo,ui-sans-serif,system-ui,sans-serif);color:var(--ink);font-size:14px} .ds-panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px} .ds-panel h2{margin:0;font-size:16px;font-weight:680;line-height:1.3} .ds-link{display:inline-flex;align-items:center;gap:5px;border:0;background:none;padding:4px 2px;font:inherit;font-size:13px;font-weight:620;color:var(--cordoba);border-radius:4px;cursor:pointer} .ds-link:hover{text-decoration:underline;text-underline-offset:3px} .ds-link svg{transition:transform .2s cubic-bezier(.16,1,.3,1)} .ds-link:hover svg{transform:translateX(3px)} .ds-link:focus-visible{outline:2px solid var(--cordoba-2);outline-offset:2px} .ds-panel ul{list-style:none;margin:0;padding:0} .ds-panel li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center;padding:11px 0;border-bottom:1px solid var(--line-soft)} .ds-panel li:last-child{border-bottom:0} .ds-panel li b{font-weight:640} .ds-bar{height:6px;border-radius:3px;background:var(--sheet-2);overflow:hidden;margin-top:7px} .ds-bar i{display:block;height:100%;border-radius:4px} .ds-bar i.c{background:var(--cordoba)} .ds-bar i.u{background:var(--dolar)} .ds-amt{text-align:right;font-variant-numeric:tabular-nums} .ds-amt strong{display:block;font-size:16px;font-weight:680} .ds-amt strong.c{color:var(--cordoba)} .ds-amt strong.u{color:var(--dolar)} .ds-amt small{display:block;font-size:12px;color:var(--ink-3)}"
+  }
+ ],
+ "narrative": {
+  "northStar": "The Córdoba Banknote",
+  "overview": "IMPRESA keeps the money of a Nicaraguan print and embroidery shop, and it draws that money the way the shop holds it: as banknotes. A total is a note with an engraved frame, a rosette seal, a serial and a guilloché band along its foot, printed in the ink of its currency. Córdobas are deep blue, dollars are green, and both values are always on the note; the reader only chooses which one is read first.\n\nEverything around the notes is quiet stationery. A pale green-grey paper ground, a slightly darker rail, off-white sheets with hairline borders, and white fields to write in. The interface is dense and calm because it is used all day at a desktop to register sales and expenses in seconds; ornament is spent only on totals and on the brand seal. Gold foil is the one warm colour, and it means \"live or still open\": the working month, the current module, an open period, money still owed.\n\nThe system refuses the row of four equal metric tiles it replaced. A number that matters is a note with its breakdown beside it, so the figure can be explained from the accounts and movements it comes from.",
+  "keyCharacteristics": [
+   "Totals are banknotes: framed, sealed, serialled, with a guilloché band, in the ink of the leading currency.",
+   "Two inks: córdoba blue and dollar green. Every amount shows both currencies, one in front and one in support.",
+   "Foil gold is reserved for what is active or pending.",
+   "Archivo on its width axis: the more a number matters, the wider it is set. Red Hat Mono for codes, dates and rates.",
+   "Tonal paper layering with hairlines; shadows only for things that float.",
+   "All imagery is line work drawn in code (SVG, `currentColor`); there are no raster assets."
+  ],
+  "rules": [
+   {
+    "name": "The Two Inks Rule",
+    "body": "An amount in córdobas is blue and an amount in dollars is green. A cash-total note takes the ink of whichever currency leads. Blue also carries the interface's actions; green never does.",
+    "section": "colors"
+   },
+   {
+    "name": "The Foil Rule",
+    "body": "Gold marks what is live or still owed attention: the working month, the current module, an open period, a pending or receivable amount, a warning. A settled figure is never gold. Solid foil is a dot, not a text colour; gold text is always Foil Text on Foil Wash.",
+    "section": "colors"
+   },
+   {
+    "name": "The In And Out Rule",
+    "body": "Green In and red Out are reserved for the direction of money and for delete. They are never used to decorate a neutral figure.",
+    "section": "colors"
+   },
+   {
+    "name": "The Wide Numeral Rule",
+    "body": "Width follows importance: 100% for body, 106 to 108% for figures and the page heading, 112% for a note value, 120% for the wordmark. Nothing is widened for emphasis alone.",
+    "section": "typography"
+   },
+   {
+    "name": "The Tabular Rule",
+    "body": "Every number is set with tabular numerals, in tables, notes, fields and bold figures alike, so columns and counting numerals do not shift.",
+    "section": "typography"
+   },
+   {
+    "name": "The Mono Is For Codes Rule",
+    "body": "Red Hat Mono carries serials, dates, rates and the supporting-currency line. It is never used for labels, headings or prose.",
+    "section": "typography"
+   },
+   {
+    "name": "The Paper Stack Rule",
+    "body": "Separate surfaces by tone and hairline first. The Float shadow is for an element that sits above the page or is the single drenched note; it is never the resting state of an ordinary panel.",
+    "section": "elevation"
+   },
+   {
+    "name": "The Engraving Rule",
+    "body": "Guilloché bands and rosettes belong to total notes and to the brand mark (rail, login card, sale sheet header). They sit behind or beside content at 22 to 34% opacity and never carry data. They are not a background for ordinary panels, tables or empty states.",
+    "section": "shapes"
+   }
+  ],
+  "dos": [
+   "Do present a module's main total as a Note with its breakdown beside it, and keep the drenched note to a single one per screen.",
+   "Do show every amount in both currencies: the leading one large in its ink, the other below it smaller or in mono.",
+   "Do print córdoba amounts in Córdoba Ink and dollar amounts in Dollar Ink wherever a balance is tied to one currency.",
+   "Do keep gold for the working month, the current module, open periods, pending amounts and warnings, as Foil Text on Foil Wash.",
+   "Do set figures wider as they matter more (106 to 112%) and always with tabular numerals.",
+   "Do outline delete actions in red with no fill and set them 14px apart from the safe actions beside them.",
+   "Do draw new icons and ornament as SVG strokes in `currentColor` (24px grid, 1.7px round stroke for icons).",
+   "Do honour reduced motion: count-ups, bar growth, the line draw and the note flip all collapse to an instant change."
+  ],
+  "donts": [
+   "Don't lay out totals as a row of equal metric tiles; that is the dashboard this system replaced.",
+   "Don't use guilloché bands or rosettes on ordinary panels, tables or empty states; they belong to notes and the brand mark.",
+   "Don't use gold on a settled figure, or solid Foil Gold as a text colour (it is 3.9:1 on a sheet).",
+   "Don't use Dollar Ink for buttons, links or focus; actions are Córdoba Ink.",
+   "Don't give a resting panel the Float shadow, or round a note past 6px so that it reads as a card.",
+   "Don't set labels, headings or prose in Red Hat Mono.",
+   "Don't use text lighter than Ink Tertiary on any paper tone."
+  ]
+ }
+}

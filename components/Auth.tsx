@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { supabaseConfigured } from '../lib/supabaseClient';
 import { addAppUser, authenticateUser, hasAnyLoginableUser } from '../lib/db';
 import type { AppUser } from '../lib/db';
+import { BrandSeal, Guilloche } from './ui';
 
 export default function Auth({ businessId, onLogin }: { businessId: string | null; onLogin: (u: AppUser) => void }) {
   const [checking, setChecking] = useState(true);
@@ -26,7 +27,7 @@ export default function Auth({ businessId, onLogin }: { businessId: string | nul
     return (
       <div className="authWrap">
         <div className="authCard">
-          <div className="brandWrap"><div className="brandMark">I</div><div><div className="brand">IMPRESA</div><div className="sub">Business Management</div></div></div>
+          <Guilloche className="authBand"/><div className="brandWrap"><BrandSeal size={44}/><div><div className="brand">IMPRESA</div><div className="sub">Estampados · Bordados · Impresiones</div></div></div>
           <p className="muted" style={{ marginTop: 18 }}>
             Esta app todavía no tiene configurada la conexión a Supabase. Falta la variable
             <code> NEXT_PUBLIC_SUPABASE_URL</code> y la llave
@@ -61,7 +62,7 @@ export default function Auth({ businessId, onLogin }: { businessId: string | nul
   return (
     <div className="authWrap">
       <div className="authCard">
-        <div className="brandWrap"><div className="brandMark">I</div><div><div className="brand">IMPRESA</div><div className="sub">Business Management</div></div></div>
+        <Guilloche className="authBand"/><div className="brandWrap"><BrandSeal size={44}/><div><div className="brand">IMPRESA</div><div className="sub">Estampados · Bordados · Impresiones</div></div></div>
         <h1 style={{ fontSize: 20, margin: '18px 0 4px' }}>{isFirstUser ? 'Crea tu cuenta de Administrativo' : 'Entrar a IMPRESA'}</h1>
         <p className="muted" style={{ marginBottom: 16 }}>{isFirstUser ? 'Todavía no hay ningún usuario creado. Esta primera cuenta queda como Administrativo.' : 'Escribe tu usuario y contraseña.'}</p>
         <label><span>Usuario</span><input type="text" autoCapitalize="none" autoCorrect="off" value={username} onChange={e => setUsername(e.target.value)} placeholder="ej. victor" /></label>
