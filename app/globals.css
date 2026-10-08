@@ -397,7 +397,8 @@ section.note.drenched.lead-u .curFlip button.on{color:var(--dolar)}
 .modalClose{display:grid;place-items:center;width:34px;height:34px;border-radius:8px;border:1px solid var(--line);background:var(--sheet)}
 .modalClose:hover{background:var(--sheet-2)}
 .modalActions{justify-content:flex-end;margin-top:16px}
-.settingsAccountCards .actions{justify-content:space-between}
+.settingsAccountCards .actions{justify-content:flex-start}
+.settingsAccountCards .actions .dangerSmall{margin-left:auto}
 .initialBalanceField{margin-top:12px}
 
 /* ---------- Contabilidad, cierre, deudas ---------- */
